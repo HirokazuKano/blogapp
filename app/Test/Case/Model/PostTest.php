@@ -16,6 +16,7 @@ class PostTest extends CakeTestCase {
 		'app.post'
 	);
 
+    public $sutoFixtures = false;
 /**
  * setUp method
  *
