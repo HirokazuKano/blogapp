@@ -10,5 +10,5 @@ Environment::configure('development', true, [
 
     ], function() {
         CakePlugin::load('Bdd');
-        //CakePlugin::load('Fabricate');
+        CakePlugin::load('Fabricate');
 });
